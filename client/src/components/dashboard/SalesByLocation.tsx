@@ -17,9 +17,9 @@ const SalesByLocation: React.FC = () => {
       change: "-11%",
       changeColor: "text-red-500",
     },
-    { country: "Turkey", sales: "590 Sales", amount: "$24,700", change: "-12%", changeColor: "text-red-500" },
-    { country: "United States", sales: "48 Sales", amount: "$2,000", change: "+7%", changeColor: "text-green-500" },
-    { country: "Japan", sales: "23 Sales", amount: "$1,500", change: "0%", changeColor: "text-gray-500" },
+    // { country: "Turkey", sales: "590 Sales", amount: "$24,700", change: "-12%", changeColor: "text-red-500" },
+    // { country: "United States", sales: "48 Sales", amount: "$2,000", change: "+7%", changeColor: "text-green-500" },
+    // { country: "Japan", sales: "23 Sales", amount: "$1,500", change: "0%", changeColor: "text-gray-500" },
   ]
 
   return (

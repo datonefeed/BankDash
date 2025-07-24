@@ -4,7 +4,7 @@ import { Card, Progress } from "antd"
 const SalesProgress: React.FC = () => {
   return (
     <Card title="Sales Progress" extra="This Quarter" className="dashboard-card">
-      <div className="text-center">
+      <div className="text-center h-80">
         <Progress
           type="circle"
           percent={75.55}

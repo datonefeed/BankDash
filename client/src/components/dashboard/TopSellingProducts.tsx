@@ -103,6 +103,7 @@ const TopSellingProducts: React.FC = () => {
       className="dashboard-card"
     >
       <Table
+        className="h-90"
         columns={columns}
         dataSource={data}
         pagination={{
