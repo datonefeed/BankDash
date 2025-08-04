@@ -74,7 +74,7 @@ const ProductFilters = ({ searchTerm, onSearch, suggestions, onFilterChange, ini
         </Form.Item>
         <Form.Item name="category">
           <Select
-            placeholder="Chọn danh mục"
+            placeholder="Select category"
             allowClear
             loading={categoriesLoading}
             style={{ width: 200 }}
@@ -88,7 +88,7 @@ const ProductFilters = ({ searchTerm, onSearch, suggestions, onFilterChange, ini
         </Form.Item>
         <Form.Item name="is_active">
           <Select
-            placeholder="Chọn trạng thái"
+            placeholder="select status"
             allowClear
             style={{ width: 150 }}
           >
